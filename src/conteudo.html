@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>convite</title>
+    <link rel="stylesheet" href="style/style2.css">
+    <style>
+        body {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <audio src="foto/No Hands (feat. Roscoe Dash and Wale).mp3" autoplay loop></audio>
+    <h1>🔥 É CHURRAS TIME! 🔥</h1>
+    <img src="foto/WhatsApp Image 2025-07-25 at 10.53.41.jpeg" alt="">
+    <p>No dia 03/08, vai rolar o niver do Braga e você tá super convidado pra essa resenha!</p>
+    <p class="local-info">
+        <span>📍 
+            <a href="https://www.google.com/maps/place/R.+J%C3%BApiter,+1198+-+Vila+Planalto,+Campo+Grande+-+MS,+79009-020/@-20.4444801,-54.6324278,16z/data=!3m1!4b1!4m6!3m5!1s0x9486e7ca439d41cb:0x6dd22057f494e844!8m2!3d-20.4444851!4d-54.6298529!16s%2Fg%2F11f3ngbld7?entry=ttu&g_ep=EgoyMDI1MDcyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">
+                R. Júpiter, 1198 - Vila Planalto, Campo Grande - MS
+            </a>
+        </span>
+        <span>⏰ A partir das: <strong>15:00h</strong></span>
+    
+       </p>
+    <h2>📌 <span>Favor levar</span></h2>
+    <ul>
+        <li><span><strong>Levar 500g de carne</strong></span></li>
+        <li><span><strong>A bebida que você vai mandar pra dentro!</strong></span></li>
+    </ul>
+ 
+    <div class="emoji-cascade">
+      <span>😈</span>
+      <span>🍻</span>
+      <span>🎉</span>
+      <span>💀</span>
+      <span>😈</span>
+      <span>🍹</span>
+      <span>🥳</span>
+      <span>💀</span>
+      <span>😈</span>
+      <span>🍺</span>
+      <span>🎊</span>
+      <span>💀</span>
+      <span>😈</span>
+      <span>🍷</span>
+      <span>🎈</span>
+      <span>💀</span>
+      <span>😈</span>
+      <span>🍾</span>
+      <span>🪩</span>
+      <span>💀</span>
+    </div>
+    <script>
+const emojis = ["😈", "🍻", "🎉", "💀", "🍹", "🥳", "🍺", "🎊", "🍷", "🎈", "🍾", "🪩"];
+const cascade = document.querySelector('.emoji-cascade');
+const emojiCount = 12; // quantidade de emojis na tela
+
+for (let i = 0; i < emojiCount; i++) {
+    const span = document.createElement('span');
+    span.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+    // posição horizontal aleatória
+    span.style.left = Math.random() * 95 + "%";
+    // delay aleatório para animação
+    span.style.animationDelay = (Math.random() * 5) + "s";
+    // duração aleatória para animação (mais lento)
+    span.style.animationDuration = (6 + Math.random() * 4) + "s";
+    cascade.appendChild(span);
+}
+</script>
+</body>
+</html>
