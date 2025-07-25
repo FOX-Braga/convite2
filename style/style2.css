@@ -2,10 +2,17 @@
 
 img {
     width: 70%;
-    height: 400px; /* altura fixa melhor para visualização */
+    height: auto;
     object-fit: cover; /* mantém o corte proporcional e centralizado */
     display: block;
     margin: 15px auto;
+}
+
+@media screen and (max-width: 900px) {
+    img {
+        width: 70%;
+        height: 400px;
+    }
 }
 
 body {
