@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap');
 
 img {
-    width: 70%;
+    width: 20%;
     height: auto;
     object-fit: cover; /* mantém o corte proporcional e centralizado */
     display: block;
